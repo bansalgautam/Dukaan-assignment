@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="w-full grid grid-cols-3 px-[32px] border-b-[1px] border-[#d9d9d9] bg-[#fff] items-center gap-4">
+    <div className="grid grid-cols-3 px-[32px] border-b-[1px] border-[#d9d9d9] bg-[#fff] items-center gap-4 fixed header w-full top-0">
       <div className="flex gap-[16px] py-[21px]">
         <h1 className="text-[#1a181e] text-[15px] leading-[22px]">Payments</h1>
         <div className="flex items-center gap-[6.7px]">

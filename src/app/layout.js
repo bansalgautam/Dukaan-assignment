@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex min-h-[100vh]">
+        <div className="min-h-[100vh]">
           <Sidebar />
           {children}
         </div>
